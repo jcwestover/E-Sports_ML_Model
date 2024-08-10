@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import pickle
+import sklearn
 from sklearn.metrics import precision_score, f1_score, accuracy_score, mean_squared_error, log_loss, roc_auc_score, confusion_matrix
 import matplotlib.pyplot as plt
 import seaborn as sns
